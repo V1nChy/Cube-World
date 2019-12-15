@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="框架">
+      <UniqueIdentifier>{c2932ac0-bba5-42df-8cff-255b96876984}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="内容">
+      <UniqueIdentifier>{0ee6b47f-b659-4ff6-bae8-c26d3cbbcf92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="框架\输入">
+      <UniqueIdentifier>{959ed0bb-38f9-4dee-b131-b8c9fc95fece}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="框架\输出">
+      <UniqueIdentifier>{4216a438-98ca-498d-bb87-21b1759e5a6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="框架\数据">
+      <UniqueIdentifier>{ac3bba46-6c93-42ff-8c5e-f949d1fb6982}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="框架\数据\OpenGL相关">
+      <UniqueIdentifier>{73b9b762-8de9-4408-9577-d9be19af0937}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="框架\场景">
+      <UniqueIdentifier>{4dc0376c-9fbb-433d-8e3d-9410f2b4b960}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="框架\输出\Shader">
+      <UniqueIdentifier>{bb0caee0-9f67-4f2a-8e2a-e31509100f25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="内容\菜单">
+      <UniqueIdentifier>{71530a9b-e86c-4d90-b0eb-eb7388d2dd5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="内容\游戏">
+      <UniqueIdentifier>{672034c2-7cdb-40b1-804f-00f56ff1e2b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="框架\场景\物体对象">
+      <UniqueIdentifier>{59ca6684-c403-4633-a797-10c5cd0ff1bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="框架\输出\图元">
+      <UniqueIdentifier>{8df05141-3c50-4211-a8f7-6dca98d7be01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="内容\读档">
+      <UniqueIdentifier>{ffc6c3be-7ba0-4332-a2a7-b40441a47272}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\water">
+      <UniqueIdentifier>{c406757b-79b9-46cd-b0f7-f26b0c8e032b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\LightTexture">
+      <UniqueIdentifier>{807f2d5d-47f0-4247-966c-1bf39879e675}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\pick">
+      <UniqueIdentifier>{6e3767f1-c68d-44d4-b6bd-1e75d5e823e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\sky">
+      <UniqueIdentifier>{1ab26319-5dfb-4afb-8805-9b5365982c80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\Particle">
+      <UniqueIdentifier>{cf356668-5f02-40e5-8f06-b2fd858b0b65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="框架\sound">
+      <UniqueIdentifier>{8aae5419-cee5-41d7-94ab-c29389a9aea4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BasicData.h">
+      <Filter>框架\数据</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFrame.h">
+      <Filter>框架</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOutput.h">
+      <Filter>框架\输出</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>框架\场景</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>框架\场景\物体对象</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderData.h">
+      <Filter>框架\输出\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="GameInput.h">
+      <Filter>框架\输入</Filter>
+    </ClInclude>
+    <ClInclude Include="Angel.h">
+      <Filter>框架\数据\OpenGL相关</Filter>
+    </ClInclude>
+    <ClInclude Include="mat.h">
+      <Filter>框架\数据\OpenGL相关</Filter>
+    </ClInclude>
+    <ClInclude Include="vec.h">
+      <Filter>框架\数据\OpenGL相关</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>内容\菜单</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>内容\游戏</Filter>
+    </ClInclude>
+    <ClInclude Include="Primitive.h">
+      <Filter>框架\输出\图元</Filter>
+    </ClInclude>
+    <ClInclude Include="Load.h">
+      <Filter>内容\读档</Filter>
+    </ClInclude>
+    <ClInclude Include="Res\sound\SoundManage.h">
+      <Filter>框架\sound</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="gpicking.glsl">
+      <Filter>资源文件\pick</Filter>
+    </None>
+    <None Include="vpicking.glsl">
+      <Filter>资源文件\pick</Filter>
+    </None>
+    <None Include="fLightTexture.glsl">
+      <Filter>资源文件\LightTexture</Filter>
+    </None>
+    <None Include="vLightTexture.glsl">
+      <Filter>资源文件\LightTexture</Filter>
+    </None>
+    <None Include="vWaterShader.glsl">
+      <Filter>资源文件\water</Filter>
+    </None>
+    <None Include="fWaterShader.glsl">
+      <Filter>资源文件\water</Filter>
+    </None>
+    <None Include="fSky.glsl">
+      <Filter>资源文件\sky</Filter>
+    </None>
+    <None Include="vSky.glsl">
+      <Filter>资源文件\sky</Filter>
+    </None>
+    <None Include="fParticleShader.glsl">
+      <Filter>资源文件\Particle</Filter>
+    </None>
+    <None Include="gParticleShader.glsl">
+      <Filter>资源文件\Particle</Filter>
+    </None>
+    <None Include="vParticleShader.glsl">
+      <Filter>资源文件\Particle</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFrame.cpp">
+      <Filter>框架</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOutput.cpp">
+      <Filter>框架\输出</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>框架\场景</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>框架\场景\物体对象</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderData.cpp">
+      <Filter>框架\输出\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="GameInput.cpp">
+      <Filter>框架\输入</Filter>
+    </ClCompile>
+    <ClCompile Include="InitShader.cpp">
+      <Filter>框架\数据\OpenGL相关</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>内容\菜单</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>内容\游戏</Filter>
+    </ClCompile>
+    <ClCompile Include="Primitive.cpp">
+      <Filter>框架\输出\图元</Filter>
+    </ClCompile>
+    <ClCompile Include="Load.cpp">
+      <Filter>内容\读档</Filter>
+    </ClCompile>
+    <ClCompile Include="Res\sound\SoundManage.cpp">
+      <Filter>框架\sound</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
